@@ -311,8 +311,8 @@ $tabfieldvalue[8] = "code,libelle,country".(!empty($conf->global->SOCIETE_SORT_O
 $tabfieldvalue[9] = "code,label,unicode";
 $tabfieldvalue[10] = "country,code,taux,localtax1_type,localtax1,localtax2_type,localtax2,recuperableonly,accountancy_code_sell,accountancy_code_buy,note";
 $tabfieldvalue[11] = "element,source,code,libelle,position";
-$tabfieldvalue[12] = "code,libelle,libelle_facture,nbjour,type_cdr,decalage,sortorder";
-$tabfieldvalue[13] = "code,libelle,type";
+$tabfieldvalue[12] = "code,libelle,libelle_facture,nbjour,type_cdr,decalage,sortorder,entity";
+$tabfieldvalue[13] = "code,libelle,type,entity";
 $tabfieldvalue[14] = "code,label,price,organization,country";
 $tabfieldvalue[15] = "code,libelle,width,height,unit";
 $tabfieldvalue[16] = "code,libelle,sortorder";
@@ -337,7 +337,7 @@ $tabfieldvalue[34] = "code,label";
 $tabfieldvalue[35] = "label";
 $tabfieldvalue[36] = "range_ik,fk_c_exp_tax_cat";
 $tabfieldvalue[37] = "code,label,short_label,unit_type,scale";
-$tabfieldvalue[38] = "code,label,url,icon";
+$tabfieldvalue[38] = "code,label,url,icon,entity";
 
 // Field names in the table for inserting a record
 $tabfieldinsert = array();
